@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student System</title>
+    <style>
+        body {
+            background-color: #d6e6fa;
+            line-height: 26px;
+        }
+
+        header {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+        }
+
+        .container {
+            width: 100%;
+            background-color: #c4c4c4;
+        }
+
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background: #333333;
+            padding: 50px 80px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            font-family: Arial, "Times New Roman";
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        /*tbody tr:nth-child(even){
+            background-color: #f58585;
+        }*/
+
+        .delete-btn {
+            background-color: #d70000;
+            padding: 10px 30px;
+            border-radius: 10px;
+
+        }
+
+        .edit-btn {
+            background-color: #ffb700;
+            padding: 10px 30px;
+            border-radius: 10px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <nav>
+        <a href="#">Welcome to Student System</a>
+        <a href="#">Home</a>
+        <a href="#">Register</a>
+        <a href="#">Search</a>
+        <a href="#">Show Information</a>
+    </nav>
+</header>
+
+<div class="container">
+    <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Mehrdad</td>
+            <td>Javan</td>
+            <td>mehrdad.javan@lexicon.se</td>
+            <td>
+                <input class="edit-btn" type="submit" value="Edit"/>
+            </td>
+            <td>
+                <input class="delete-btn" type="submit" value="Delete"/>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mehrdad</td>
+            <td>Javan</td>
+            <td>mehrdad.javan@lexicon.se</td>
+            <td>
+                <input class="edit-btn" type="submit" value="Edit"/>
+            </td>
+            <td>
+                <input class="delete-btn" type="submit" value="Delete"/>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mehrdad</td>
+            <td>Javan</td>
+            <td>mehrdad.javan@lexicon.se</td>
+            <td>
+                <input class="edit-btn" type="submit" value="Edit"/>
+            </td>
+            <td>
+                <input class="delete-btn" type="submit" value="Delete"/>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mehrdad</td>
+            <td>Javan</td>
+            <td>mehrdad.javan@lexicon.se</td>
+            <td>
+                <input class="edit-btn" type="submit" value="Edit"/>
+            </td>
+            <td>
+                <input class="delete-btn" type="submit" value="Delete"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    Copyright &copy; 2021 Lexicon
+</footer>
+</body>
+</html>
